@@ -8,4 +8,7 @@
     puts "-----------"
     puts " #{board[6]} ,| #{board[7]} |, #{board[8]}"
   end
-  board = []
+  board = ["O", "X", " ", " ", "X", " ", "X", "O", " "]
+
+print display_board(board)
+
